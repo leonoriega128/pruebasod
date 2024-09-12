@@ -26,6 +26,7 @@ public class CajeroAutomatico {
         reader = new Scanner(System.in);
         System.out.println("Ingrese su número de cuenta:");
         cuenta = reader.nextInt();
+        System.out.println("esta es mi primer modificacion");
     }
 
     private static void mostrarMenu() {
